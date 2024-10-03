@@ -5,7 +5,7 @@ namespace Tyuiu.GubanovaSO.Sprint1.Task3.V6.Lib
     {
         public double TravelCost(double distance, double gasFlow, double gasPrice)
         {
-            return Math.Round(((( gasFlow / 100 ) * distance * gasPrice) * 2) ,3) ;
+            return Math.Round((( gasFlow / 100 ) * distance * gasPrice) * 2 ,3);
         }
     }
 }
