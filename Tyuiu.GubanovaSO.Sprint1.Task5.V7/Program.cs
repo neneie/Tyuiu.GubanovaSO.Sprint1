@@ -26,7 +26,7 @@ namespace Tyuiu.GubanovaSO.Sprint1.Task5.V7
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Часов прошло: " + ds.AngleToHoursMinutes(f));
-            Console.ReadLine();
+            Console.ReadLine(); 
         
     }
     }
