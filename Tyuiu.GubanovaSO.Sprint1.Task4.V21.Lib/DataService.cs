@@ -5,7 +5,7 @@ namespace Tyuiu.GubanovaSO.Sprint1.Task4.V21.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = (Math.Abs(Math.Pow(1 + x ,2)) - y) / (x + y);
+            var res = Math.Round((Math.Abs(Math.Pow(1 + x ,2)) - y) / (x + y),2);
             return res;
         }
     }
